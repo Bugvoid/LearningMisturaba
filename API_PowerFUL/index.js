@@ -89,6 +89,10 @@ const init = async () => {
     {
       method: "POST",
       path: "/api/v1/paintings",
+      config: {
+        description: "GET a specific by ID",
+        tags: ["api", "v1", "painting"]
+      },
       handler: (req, reply) => {
         const { name, url, techniques } = req.payload;
         const painting = new Painting({
@@ -105,5 +109,12 @@ const init = async () => {
   await server.start();
   console.log(`Server Running at:${server.info.uri}`);
 };
+
+process.on("unhandledRejection", err => {
+  if (err) {
+    console.log(err);
+    process.exit(1);
+  }
+});
 
 init();
