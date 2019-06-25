@@ -42,7 +42,7 @@ const ListReducer = (state = {}, action) => {
       };
     }
     case HANDLE_DROP: {
-      const { cardId, cardName, listId, newlistId } = action.payload;
+      const { cardId, cardName, listId, newListId } = action.payload;
       const currentList = state[newListId];
       currentList.cards.push({
         name: cardName,
@@ -83,4 +83,4 @@ const ReducerBoardActive = combineReducers({
   listItem: ListReducer
 });
 
-export default ActiveBoardReducer;
+export default ReducerBoardActive;

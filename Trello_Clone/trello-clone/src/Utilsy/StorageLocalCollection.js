@@ -25,6 +25,6 @@ export const saveState = boards => {
       localStorage.setItem("boardsCollection", serializedCollectionBoardState);
     });
   } catch (error) {
-    new Error(err);
+    new Error(error);
   }
 };
