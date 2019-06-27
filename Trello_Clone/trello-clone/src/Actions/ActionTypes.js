@@ -13,6 +13,3 @@ export const SUBMIT_LIST_SUCCESS = 'SUBMIT_LIST_SUCCESS';
 export const SUBMIT_NEW_CARD = 'SUBMIT_NEW_CARD';
 export const HANDLE_DROP = 'HANDLE_DROP';
 export const ARCHIVE_POST = 'ARCHIVE_POST';
-
-
-//Tipos de actions no trello basic

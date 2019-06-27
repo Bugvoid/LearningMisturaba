@@ -13,10 +13,10 @@ const Text = styled.h1`
 `
 
 const NotFound = () => (
-  <Wrapper>
-    <Text>Woops!</Text>
-    <Link to="/">Head back to safety!</Link>
-  </Wrapper>
+    <Wrapper>
+        <Text>Woops!</Text>
+        <Link to="/">Head back to safety!</Link>
+    </Wrapper>
 )
 
 export default NotFound;
