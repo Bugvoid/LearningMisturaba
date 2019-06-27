@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Field, reduxForm, reset } from "redux-form";
 import { connect } from "react-redux";
-import submitNewCard from "~Actions/SubmitNewCard";
+import submitNewCard from "../../../../Actions/SubmitNewCard";
 import BoardTitleInput from "./../../boardCreation/BoardTitleInput";
 import Card from "./Card";
 import uniqueId from "lodash/uniqueId";
