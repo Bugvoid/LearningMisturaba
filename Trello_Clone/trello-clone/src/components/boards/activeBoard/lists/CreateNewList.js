@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import { fadeIn } from "~Utilsy/Animations";
+import { fadeIn } from "./../../../../Utilsy/Animations";
 
 export const Wrapper = styled.div`
   display: flex;

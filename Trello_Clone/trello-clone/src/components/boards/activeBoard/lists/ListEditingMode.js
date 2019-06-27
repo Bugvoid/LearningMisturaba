@@ -2,9 +2,9 @@ import React, { Component } from "react";
 import { connect } from "react-redux";
 import styled from "styled-components";
 import DisableListEditMode from "./DisableListEditMode";
-import disableListEditMode from "~Actions/DisableListEditMode";
+import disableListEditMode from "~Actions/ListEditModeDisable";
 import { reduxForm, Field, reset } from "redux-form";
-import BoardTitleInput from "./../../";
+import BoardTitleInput from "./../../boardCreation/BoardTitleInput";
 
 const ListEditingModeWrapper = styled.div`
   padding: 20px 12px;
