@@ -67,7 +67,7 @@ class ActiveCreateBoard extends Component {
                     <Title>Creating a board</Title>
                     <CloseBoardIcon
                         onClick={() => cancelCreatingBoard()}
-                        src={require('../../../Assets/closeIcon.svg')}
+                        src={require('../../../Assets/CloseIcons.svg')}
                     />
                 </TopWrapper>
 

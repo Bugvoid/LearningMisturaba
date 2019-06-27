@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import CloseIcon from '~Assets/closeIcon.svg';
+import CloseIcon from '~Assets/CloseIcons.svg';
 
 const DisableWrapper = styled.div`
     position: relative;
