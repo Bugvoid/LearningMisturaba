@@ -4,7 +4,7 @@ import CreateCardContainer from "./../cards/CardContainer";
 import { DropTarget } from "react-dnd";
 import { ItemTypes } from "./../../../../Utilsy/Constants";
 import { connect } from "react-redux";
-import handleDrop from "~Actions/Drophandle";
+import handleDrop from "../../../../Actions/Drophandle";
 import { fadeIn } from "./../../../../Utilsy/Animations";
 
 const ListItemWrapper = styled.div`

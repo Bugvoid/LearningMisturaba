@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { connect } from "react-redux";
 import styled from "styled-components";
 import DisableListEditMode from "./DisableListEditMode";
-import disableListEditMode from "~Actions/ListEditModeDisable";
+import disableListEditMode from "../../../../Actions/ListEditModeDisable";
 import { reduxForm, Field, reset } from "redux-form";
 import BoardTitleInput from "./../../boardCreation/BoardTitleInput";
 
