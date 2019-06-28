@@ -42,7 +42,7 @@ const CreateBoard = ({ createNewBoard }) => {
     )
 }
 
-CreateBoard.PropTypes = {
+CreateBoard.propTypes = {
     createNewBoard: PropTypes.func.isRequired
 }
 

@@ -18,7 +18,7 @@ class CreateBoardContainer extends Component {
     }
 }
 
-CreateBoardContainer.PropTypes = {
+CreateBoardContainer.propTypes = {
     newBoard: PropTypes.object
 }
 
